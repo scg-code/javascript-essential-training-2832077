@@ -16,5 +16,11 @@ const everydayPack = new Backpack(
   "December 5, 2018 15:00:00 PST"
 );
 
-console.log("The everydayPack object:", everydayPack);
-console.log("Date acquired:", everydayPack.dateAcquired);
+const content = ``;
+
+console.log("The everydayPack object:", everydayPack); // Backpack {name: "Everyday Backpack", volume: 30, color: "grey", pocketNum: 15, strapLength: 26, …}
+console.log("Date acquired:", everydayPack.dateAcquired);  // Date acquired: December 5, 2018 15:00:00 PST
+console.log("Days since acquired:", everydayPack.backpackAge()); 
+
+
+

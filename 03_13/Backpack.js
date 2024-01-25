@@ -36,4 +36,22 @@ class Backpack {
   }
 }
 
+const bookTitle = "Alice's Adventures in Wonderland";
+const bookAuthor = "Lewis Carroll";
+const bookPubYear = 1865;
+const bookISBN = 9798369203415;
+
+class Book {
+  constructor(title, author, pubYear, ISBN) {
+    this.title = title;
+    this.author = author;
+    this.pubYear = pubYear;
+    this.ISBN = ISBN;
+  }
+}
+
+
+
+
+
 export default Backpack;
